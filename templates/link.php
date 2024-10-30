@@ -1,0 +1,1 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; ?><a<?php foreach( $atts as $key => $value ) : ?> <?= $key; ?><?php if ( $value ) : ?>="<?= $value; ?>"<?php endif; ?><?php endforeach; ?>><?= $content; ?></a>
